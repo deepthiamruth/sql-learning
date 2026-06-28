@@ -1,0 +1,5 @@
+USE TechCorpDB;
+GO
+
+CREATE SCHEMA corp;
+GO

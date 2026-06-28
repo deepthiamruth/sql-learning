@@ -1,0 +1,254 @@
+==================================================
+SQL Learning Repository Setup
+==================================================
+
+1. Create a repository in GitHub
+
+Repository Name:
+sql-learning
+
+Repository URL:
+https://github.com/deepthiamruth/sql-learning
+
+Description:
+Creates a remote repository to store and track your SQL learning project.
+
+------------------------------------------------------
+
+2. Clone the repository to local machine
+
+Command:
+git clone https://github.com/deepthiamruth/sql-learning
+
+Description:
+Downloads a copy of the GitHub repository to your local computer.
+
+------------------------------------------------------
+
+3. Navigate to the repository
+
+Command:
+cd /d/Data_Science/sql/sql-learning
+
+Description:
+Moves into the project directory where all files will be created.
+
+------------------------------------------------------
+
+4. Check current location
+
+Command:
+pwd
+
+Description:
+Displays the current working directory.
+
+------------------------------------------------------
+
+5. List files and folders
+
+Command:
+ls
+
+Description:
+Shows all files and folders in the current directory.
+
+------------------------------------------------------
+
+6. Create folders
+
+Command:
+mkdir Database Practice Notes
+
+Description:
+Creates folders to organize database scripts, practice queries, and notes.
+
+------------------------------------------------------
+
+7. Create Schema folder
+
+Command:
+mkdir Database/Schema
+
+Description:
+Creates a folder to store database schema-related SQL scripts.
+
+------------------------------------------------------
+
+8. Create SQL files
+
+Command:
+touch Database/Schema/01_Create_Database.sql
+
+Description:
+Creates a script file to create the database.
+
+------------------------------------------------------
+
+9. Create Schema script
+
+Command:
+touch Database/Schema/02_Create_Schema.sql
+
+Description:
+Creates a script file to create database schemas.
+
+------------------------------------------------------
+
+10. Create Tables script
+
+Command:
+touch Database/Schema/03_Create_Tables.sql
+
+Description:
+Creates a script file to define database tables.
+
+------------------------------------------------------
+
+11. Create Sample Data script
+
+Command:
+touch Database/Schema/04_Insert_Sample_Data.sql
+
+Description:
+Creates a script file to insert sample data into tables.
+
+------------------------------------------------------
+
+12. Create Views script
+
+Command:
+touch Database/Schema/05_Create_Views.sql
+
+Description:
+Creates a script file to define database views.
+
+------------------------------------------------------
+
+13. Create Practice file
+
+Command:
+touch Practice/Day01_Basics.sql
+
+Description:
+Creates a file to store SQL practice questions and solutions.
+
+------------------------------------------------------
+
+14. Create Git Notes file
+
+Command:
+touch Notes/Git_Commands.txt
+
+Description:
+Creates a file to document frequently used Git commands.
+
+------------------------------------------------------
+
+15. Create SQL Notes file
+
+Command:
+touch Notes/SQL_Notes.txt
+
+Description:
+Creates a file to document SQL concepts and learnings.
+
+------------------------------------------------------
+
+16. Go one folder back
+
+Command:
+cd ..
+
+Description:
+Moves to the parent directory.
+
+------------------------------------------------------
+
+17. Check Git status
+
+Command:
+git status
+
+Description:
+Shows modified, staged, and untracked files.
+
+------------------------------------------------------
+
+18. Check current branch
+
+Command:
+git branch
+
+Description:
+Displays the current Git branch.
+
+------------------------------------------------------
+
+19. Add changes
+
+Command:
+git add .
+
+Description:
+Stages all new and modified files for commit.
+
+------------------------------------------------------
+
+20. Commit changes
+
+Command:
+git commit -m "Initial project setup"
+
+Description:
+Saves staged changes to the local Git repository.
+
+------------------------------------------------------
+
+21. Push changes to GitHub
+
+Command:
+git push origin main
+
+Description:
+Uploads local commits to the GitHub repository.
+
+------------------------------------------------------
+
+22. Pull latest changes
+
+Command:
+git pull origin main
+
+Description:
+Downloads and merges the latest changes from GitHub.
+
+------------------------------------------------------
+
+23. View commit history
+
+Command:
+git log --oneline
+
+Description:
+Displays a concise list of previous commits.
+
+------------------------------------------------------
+
+24. Open project in VS Code
+
+Command:
+code .
+
+Description:
+Opens the current project folder in Visual Studio Code.
+
+------------------------------------------------------
+
+25. Clear terminal
+
+Command:
+clear
+
+Description:
+Clears the terminal screen.

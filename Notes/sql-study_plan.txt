@@ -1,0 +1,312 @@
+==================================================
+SQL LEARNING ROADMAP
+Database: TechCorpDB
+Goal: SQL for Interviews, Data Engineering & Analytics
+==================================================
+
+WEEK 1 - SQL FOUNDATIONS
+==================================================
+
+Day 1: Basic Retrieval
+----------------------------------------
+Concepts:
+- SELECT
+- DISTINCT
+- WHERE
+- ORDER BY
+- TOP
+- BETWEEN
+- IN
+- LIKE
+- AND / OR
+
+Target:
+- 50 Questions
+
+----------------------------------------
+
+Day 2: Aggregate Functions
+----------------------------------------
+Concepts:
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- GROUP BY
+- HAVING
+
+Target:
+- 40-50 Questions
+
+----------------------------------------
+
+Day 3: Joins - Part 1
+----------------------------------------
+Concepts:
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+Practice:
+- Employees + Departments
+- Employees + Roles
+- Projects + Clients
+
+Target:
+- 40 Questions
+
+----------------------------------------
+
+Day 4: Joins - Part 2
+----------------------------------------
+Concepts:
+- SELF JOIN
+- Multiple Table Joins
+
+Practice:
+- Employee → Manager
+- Employee → Department → Role
+- Project → Client → Employees
+
+Target:
+- 30-40 Questions
+
+----------------------------------------
+
+Day 5: Subqueries
+----------------------------------------
+Concepts:
+- IN
+- NOT IN
+- EXISTS
+- NOT EXISTS
+
+Practice:
+- Highest Salary Employee
+- Employees Above Average Salary
+- Departments With No Employees
+
+Target:
+- 30 Questions
+
+
+==================================================
+WEEK 2 - INTERMEDIATE SQL
+==================================================
+
+Day 6: String Functions
+----------------------------------------
+Concepts:
+- UPPER()
+- LOWER()
+- LEN()
+- LEFT()
+- RIGHT()
+- SUBSTRING()
+- CONCAT()
+
+Target:
+- 25 Questions
+
+----------------------------------------
+
+Day 7: Date Functions
+----------------------------------------
+Concepts:
+- GETDATE()
+- DATEDIFF()
+- DATEADD()
+- YEAR()
+- MONTH()
+- DAY()
+
+Target:
+- 25 Questions
+
+----------------------------------------
+
+Day 8: CASE Statements
+----------------------------------------
+Concepts:
+- CASE
+- WHEN
+- THEN
+- ELSE
+- END
+
+Practice:
+- High Salary
+- Medium Salary
+- Low Salary
+
+Target:
+- 25 Questions
+
+----------------------------------------
+
+Day 9: Views
+----------------------------------------
+Concepts:
+- CREATE VIEW
+- ALTER VIEW
+- DROP VIEW
+
+Target:
+- 15 Questions
+
+----------------------------------------
+
+Day 10: CTEs
+----------------------------------------
+Concepts:
+- WITH CTE
+
+Target:
+- 20 Questions
+
+
+==================================================
+WEEK 3 - ADVANCED SQL
+==================================================
+
+Day 11: Window Functions
+----------------------------------------
+Concepts:
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+
+Target:
+- 30 Questions
+
+----------------------------------------
+
+Day 12: PARTITION BY
+----------------------------------------
+Concepts:
+- OVER(PARTITION BY)
+
+Practice:
+- Rank Employees Within Departments
+- Department-wise Salary Analysis
+
+Target:
+- 25 Questions
+
+----------------------------------------
+
+Day 13: LEAD & LAG
+----------------------------------------
+Concepts:
+- LEAD()
+- LAG()
+
+Practice:
+- Compare Current Row With Previous Row
+- Salary Trend Analysis
+
+Target:
+- 20 Questions
+
+----------------------------------------
+
+Day 14: Recursive CTEs
+----------------------------------------
+Concepts:
+- Recursive CTE
+
+Practice:
+- CEO → Manager → Lead → Employee Hierarchy
+
+Target:
+- 15 Questions
+
+
+==================================================
+WEEK 4 - DATA ENGINEERING SQL
+==================================================
+
+Day 15: Stored Procedures
+----------------------------------------
+Concepts:
+- CREATE PROCEDURE
+- EXEC
+- Parameters
+
+----------------------------------------
+
+Day 16: User Defined Functions
+----------------------------------------
+Concepts:
+- Scalar Functions
+- Table Valued Functions
+
+----------------------------------------
+
+Day 17: Indexes
+----------------------------------------
+Concepts:
+- Clustered Index
+- Non-Clustered Index
+
+----------------------------------------
+
+Day 18: Transactions
+----------------------------------------
+Concepts:
+- BEGIN TRANSACTION
+- COMMIT
+- ROLLBACK
+
+----------------------------------------
+
+Day 19: Temporary Objects
+----------------------------------------
+Concepts:
+- Temporary Tables (#)
+- Global Temporary Tables (##)
+- Table Variables
+
+----------------------------------------
+
+Day 20: SQL Interview Preparation
+----------------------------------------
+Practice:
+- Top N Per Department
+- Second Highest Salary
+- Employees Above Department Average
+- Manager Hierarchy Queries
+- Running Totals
+- Cumulative Sums
+- Duplicate Detection
+- Real Interview Questions
+
+
+==================================================
+FINAL OUTCOME
+==================================================
+
+By the end of Day 20, you should be comfortable with:
+
+- SQL Fundamentals
+- Aggregations
+- Joins
+- Subqueries
+- String Functions
+- Date Functions
+- CASE Statements
+- Views
+- CTEs
+- Window Functions
+- Recursive Queries
+- Stored Procedures
+- Functions
+- Indexes
+- Transactions
+- Interview-Level SQL Problems
+
+==================================================
+END OF ROADMAP
+==================================================
